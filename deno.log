@@ -1,0 +1,9 @@
+DEBUG RS - deno_config::deno_json:780 - Config file found at '/root/test/bug-deno-ansi-color/deno.json'
+DEBUG RS - deno::args:581 - .npmrc found at: '/root/.npmrc'
+DEBUG RS - deno::args:931 - Finished config loading.
+DEBUG RS - deno::file_fetcher:646 - FileFetcher::fetch_no_follow_with_options - specifier: https://registry.npmmirror.com/zustand
+DEBUG RS - deno::file_fetcher:357 - FileFetcher::fetch_remote_no_follow - specifier: https://registry.npmmirror.com/zustand
+DEBUG RS - hyper_util::client::legacy::connect::dns:122 - resolving host="registry.npmmirror.com"
+DEBUG RS - deno::file_fetcher:425 - Import 'https://registry.npmmirror.com/zustand' failed: error sending request for url (https://registry.npmmirror.com/zustand): client error (Connect): dns error: failed to lookup address information: Temporary failure in name resolution: failed to lookup address information: Temporary failure in name resolution. Retrying...
+DEBUG RS - hyper_util::client::legacy::connect::dns:122 - resolving host="registry.npmmirror.com"
+error: npm:zustand was not found.

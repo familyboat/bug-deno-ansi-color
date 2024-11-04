@@ -1,0 +1,48 @@
+npm verbose cli /root/.nvm/versions/node/v22.9.0/bin/node /root/.nvm/versions/node/v22.9.0/bin/npm
+npm info using npm@10.8.3
+npm info using node@v22.9.0
+npm verbose title npm install zustand
+npm verbose argv "install" "--loglevel" "verbose" "zustand"
+npm verbose logfile logs-max:10 dir:/root/.npm/_logs/2024-11-04T14_13_16_531Z-
+npm verbose logfile /root/.npm/_logs/2024-11-04T14_13_16_531Z-debug-0.log
+npm http fetch GET https://registry.npmmirror.com/zustand attempt 1 failed with EAI_AGAIN
+npm http fetch GET https://registry.npmmirror.com/zustand attempt 2 failed with EAI_AGAIN
+npm http fetch GET https://registry.npmmirror.com/zustand attempt 3 failed with EAI_AGAIN
+npm http fetch GET 200 https://registry.npmmirror.com/zustand 100183ms (cache stale)
+npm http fetch GET https://registry.npmmirror.com/@types%2freact attempt 1 failed with EAI_AGAIN
+npm http fetch GET https://registry.npmmirror.com/@types%2freact attempt 2 failed with EAI_AGAIN
+npm http fetch GET https://registry.npmmirror.com/@types%2freact attempt 3 failed with EAI_AGAIN
+npm http fetch GET 200 https://registry.npmmirror.com/@types%2freact 100126ms (cache stale)
+npm http fetch GET https://registry.npmmirror.com/immer attempt 1 failed with EAI_AGAIN
+npm http fetch GET https://registry.npmmirror.com/immer attempt 2 failed with EAI_AGAIN
+npm http fetch GET https://registry.npmmirror.com/immer attempt 3 failed with EAI_AGAIN
+npm http fetch GET 200 https://registry.npmmirror.com/immer 100096ms (cache stale)
+npm http fetch GET https://registry.npmmirror.com/react attempt 1 failed with EAI_AGAIN
+npm http fetch GET https://registry.npmmirror.com/react attempt 2 failed with EAI_AGAIN
+npm http fetch GET https://registry.npmmirror.com/react attempt 3 failed with EAI_AGAIN
+npm http fetch GET 200 https://registry.npmmirror.com/react 100144ms (cache stale)
+npm http fetch GET https://registry.npmmirror.com/use-sync-external-store attempt 1 failed with EAI_AGAIN
+npm http fetch GET https://registry.npmmirror.com/use-sync-external-store attempt 2 failed with EAI_AGAIN
+npm http fetch GET https://registry.npmmirror.com/use-sync-external-store attempt 3 failed with EAI_AGAIN
+npm http fetch GET 200 https://registry.npmmirror.com/use-sync-external-store 100146ms (cache stale)
+npm verbose audit error FetchError: request to https://registry.npmmirror.com/-/npm/v1/security/audits/quick failed, reason: getaddrinfo EAI_AGAIN registry.npmmirror.com
+npm verbose audit error     at ClientRequest.<anonymous> (/root/.nvm/versions/node/v22.9.0/lib/node_modules/npm/node_modules/minipass-fetch/lib/index.js:130:14)
+npm verbose audit error     at ClientRequest.emit (node:events:519:28)
+npm verbose audit error     at emitErrorEvent (node:_http_client:103:11)
+npm verbose audit error     at _destroy (node:_http_client:886:9)
+npm verbose audit error     at onSocketNT (node:_http_client:906:5)
+npm verbose audit error     at process.processTicksAndRejections (node:internal/process/task_queues:91:21) {
+npm verbose audit error   code: 'EAI_AGAIN',
+npm verbose audit error   errno: 'EAI_AGAIN',
+npm verbose audit error   syscall: 'getaddrinfo',
+npm verbose audit error   hostname: 'registry.npmmirror.com',
+npm verbose audit error   type: 'system'
+npm verbose audit error }
+
+up to date in 9m
+npm verbose cwd /root/test/bug-deno-ansi-color
+npm verbose os Linux 5.10.102.1-microsoft-standard-WSL2
+npm verbose node v22.9.0
+npm verbose npm  v10.8.3
+npm verbose exit 0
+npm info ok
