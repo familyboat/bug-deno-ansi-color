@@ -18,13 +18,13 @@ Run below command:
 ```sh
 deno install --log-level debug npm:zustand &> deno.malformed.log
 ```
-Please notice the last line in deno.malformed.log, ansi color is malformed. But it should be striped.
+Please notice the last line in deno.malformed.log, ansi color is malformed. But it should be stripped.
 
 If you run below command:
 ```sh
 NO_COLOR=1 deno install --log-level debug npm:zustand &> deno.log
 ```
-Notice the last line in deno.log, ansi color is striped.
+Notice the last line in deno.log, ansi color is stripped.
 
 ## With npm
 
@@ -44,4 +44,4 @@ Run below command:
 ```sh
 npm install --loglevel verbose zustand &> npm.log
 ```
-In npm.log, you will find that ansi color was striped.
+In npm.log, you will find that ansi color was stripped.
